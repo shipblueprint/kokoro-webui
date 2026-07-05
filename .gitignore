@@ -1,0 +1,25 @@
+# Model files — download these into the models/ folder:
+#   - kokoro-v1.0.onnx       (from https://huggingface.co/hexgrad/Kokoro-82M)
+#   - kokoro-v1.0.fp16-gpu.onnx  (GPU-optimised variant, optional)
+#   - voices-v1.0.bin        (from https://huggingface.co/hexgrad/Kokoro-82M)
+models/kokoro-v1.0.onnx
+models/kokoro-v1.0.fp16-gpu.onnx
+models/voices-v1.0.bin
+
+# Output audio files
+output/
+
+# Logs
+kokoro_tts.log
+temp_podcast.wav
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment
+.env
+.venv
+venv/
