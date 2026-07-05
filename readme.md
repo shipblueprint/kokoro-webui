@@ -4,8 +4,8 @@ An intuitive Gradio WebUI wrapper for the **Kokoro TTS** model. This project add
 
 ## Credits & Credibility
 This UI is built entirely on top of the excellent work by the creators of the Kokoro model. 
-* **Core Model:** [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) by Hexgrad.
-* **Python API wrapper used:** [kokoro-onnx](https://github.com/theodorewoll/kokoro-onnx)
+* **Core Model:** [Kokoro-82M](https://github.com/hexgrad/kokoro) by Hexgrad.
+* **Python API wrapper used:** [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx)
 
 ## Setup Instructions
 1. Install requirements: `pip install gradio kokoro-onnx numpy soundfile`
